@@ -5,6 +5,7 @@ def test_calculate_area_square():
     assert calculate_area_square(2) == 4  
     assert calculate_area_square(2.5) == 6.25
     #last 4 digits of student id 
+    #add last 4 digits
     assert calculate_area_square(3) == 7568
   
 def test_calculate_area_square_negative():  
